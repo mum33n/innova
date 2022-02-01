@@ -1,0 +1,14 @@
+var wow = new WOW();
+wow.init();
+
+const toggler=document.getElementById("mobile-menu");
+toggler.addEventListener('click', function(){
+    toggler.classList.toggle('is-active')
+})
+const options = {
+    strings: ["INNOVA TECHNOLOGY"],
+    typeSpeed: 100,
+  };
+
+  const typed = new Typed('.typing', options);
+

@@ -1,0 +1,124 @@
+body{
+    /* background: linear-gradient(315deg, #2a2a72 25%, #009ffd 74%); */
+    background-color: #04041b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-toggler .bar{
+    display: block;
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+}
+nav, footer{
+    background-color: #060629 !important;
+}
+.typed-cursor{
+    display: none;
+}
+.particle{
+    position: absolute;
+    z-index: -20;
+    top: 0;
+}
+.mt-100{
+    margin-top: 150px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 1.4em;
+}
+.project, .profile {
+    background-color: transparent;
+    padding: 30px;
+    border: #fff solid 2px;
+    border-radius: 5px;
+}
+.description{
+    font-size: 1em !important;
+}
+.profile{
+    background-color: transparent;
+}
+.prof{
+    /* border: #0f9b0f solid !important; */
+    border-radius: 10px !important;
+}
+.learn{
+    border: #fff solid 2px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 70px;
+}
+.linkedin{
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 70px;
+    border-bottom: dashed 2px #fff;
+}
+.linkedin:hover{
+    text-decoration: none;
+    color: #04041b;
+    background-color: #fff;
+}
+.learn:hover{
+    text-decoration: none;
+    color: #04041b;
+    background-color: #fff;
+}
+.justify{
+    text-align: justify !important;
+}
+p{
+    font-size: 1.5em;
+}
+a{
+    font-size: 1.2em;
+    color: #fff;
+    word-wrap: break-word;
+}
+.pos{
+    margin-top: 0 !important;
+    font-size: 1em;
+}
+@media screen and (max-width:968px){
+    .nav-item{
+        text-align: center;
+    }
+    .menu-toggle .bar{
+        display: block;
+    }
+    #mobile-menu .bar:nth-child(2){
+        width: 17.5px;
+        margin-right: 0;
+    }
+    #mobile-menu .bar:nth-child(3){
+        width: 10px;
+        margin-right: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        width: 25px;
+    }
+    .step-inner{
+        font-weight: 200;
+    }
+}
+.copy{
+    font-size: 1.3em;
+}
+.y126__sas{
+    height:6px;
+    background-color:#EF4765;
+    display:block
+}
